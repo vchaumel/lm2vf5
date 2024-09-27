@@ -1,0 +1,54 @@
+@import url(componments/cards.css);
+@import url(componments/container.css);
+
+body{
+  background-image:url(../images/IMG_4959.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: medium;
+}
+
+.bottom{
+  background-color: skyblue;
+  text-align: center;
+  font-weight: bolder;
+  background-size: cover;
+}
+h2{
+  font-size: 25px;
+}
+
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display:block;
+}
+
+a{
+text-decoration: none;
+color: black;
+margin: 20px;
+background-color: darkgoldenrod;
+}
+
+a:hover{
+  background-color: lightgrey;
+}
+
+p{
+  margin: 5px;
+}
+
+
+h2{
+  margin: 5px;
+}
+.btn-rtn{
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  background-color: darkgoldenrod;
+  border: 3px solid black;;
+}
